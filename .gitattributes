@@ -1,0 +1,34 @@
+# =============================================================================
+# Git Attributes for ComfyUI / Jianying Project
+# =============================================================================
+
+# Text files - use LF
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.env text eol=lf
+*.ps1 text eol=lf
+*.sh text eol=lf
+
+# Binary files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.mov binary
+*.wav binary
+*.mp3 binary
+*.zip binary
+*.pth binary
+*.ckpt binary
+*.safetensors binary
+
+# Self
+.gitattributes text eol=lf
+.gitignore text eol=lf
